@@ -60,7 +60,7 @@ Refinement pipelines may process a single sample ($N = 1$) or an arbitrary batch
 2. **Annotations, Labels, & Legends**:
    - **Top-Left Info Text**: Print **only two lines**:
      - Line 1: Sample label (e.g., `YK729 (Rh-rich as-grown)`)
-     - Line 2: Goodness of fit reporting **$\chi^2$ and $R_{\mathrm{wp}}^2$** (e.g., `$\chi^2 = 1.15$, $R_{\mathrm{wp}}^2 = 0.057$ (5.7\%)`), omitting phase weight fractions and $R_B$.
+     - Line 2: Goodness of fit reporting **$\chi^2$ and $R_{\mathrm{wp}}^2$** as a pure fractional value without percentages (e.g., `$\chi^2 = 1.15$, $R_{\mathrm{wp}}^2 = 0.057$`), omitting phase weight fractions and $R_B$.
      - Format with a **borderless translucent white background**: `bbox=dict(boxstyle='square,pad=0.25', facecolor='white', edgecolor='none', alpha=0.75)`.
    - **Phase Tick / Curve Labels**: Place on the right (`x = 89.2°`, `ha='right'`) in **bold** math/text (`\mathbf{KRh_2P_2}`, `fontweight='bold'`) with a white background box (`facecolor='white'`, `edgecolor='none'`, `zorder=10`) so ticks or lines never obscure the text.
    - **Typography & Legend**: Strictly follow Global Rule 6 (Arial font preset with `UnicodeFonts.get_xheight` iceberg patch, normal font weight on axes/titles, and sharp black rectangular legend `fancybox=False, edgecolor='k'`).
