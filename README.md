@@ -42,7 +42,7 @@ fullprof-rietveld/
   2. **Background-Subtracted Plots**: Net intensity $Y_{\mathrm{obs}} - B(2\theta)$ and $Y_{\mathrm{calc}} - B(2\theta)$ with zero line, shifted ticks, and shifted difference curves.
   3. **Phase-Decomposed Profile Plots**: Continuous solid, color-coded phase profile curves $Y_p(2\theta)$, each vertically offset above the difference curve.
   4. **Single-Panel Model Comparison Plots**: Overlays both calculated profile fits ($Y_{\mathrm{calc}}^{\mathrm{Set1}}$ and $Y_{\mathrm{calc}}^{\mathrm{Set2}}$, thin solid curves) directly on $Y_{\mathrm{obs}}$, with Bragg ticks and both difference curves on a shared baseline below.
-- **Typography & Styling**: Arial font preset, normal font weight, grey difference curves in all cases (`#555555`), per-panel legends in stacked/multi-row figures, borderless translucent top-left text box reporting $\chi^2$ and $R_{\mathrm{wp}}^2$ as pure fractional values (no percentages), bold right-aligned phase labels, and black rectangular legends (`fancybox=False, edgecolor='k'`).
+- **Typography & Styling**: Arial font preset, normal font weight, grey difference curves (`#555555`) across standard fits with color-matching to respective profile fits in comparative overlays, per-panel legends in stacked/multi-row figures, borderless translucent top-left text box reporting $\chi^2$ and $R_{\mathrm{wp}}^2$ as pure fractional values (no percentages), bold right-aligned phase labels, and black rectangular legends (`fancybox=False, edgecolor='k'`).
 
 ---
 
